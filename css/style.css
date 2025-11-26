@@ -4,3 +4,26 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #0D0E43;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.home-nav{
+    color: #FB2E86;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 47px 0;
+}
+
+.header ul {
+    display: flex;
+    gap: 36px;
+}
