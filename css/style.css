@@ -4,9 +4,14 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #0D0E43;
+}
+
+.logo{
+    font-size: 34px bold;
 }
 
 ul{
@@ -26,4 +31,24 @@ ul{
 .header ul {
     display: flex;
     gap: 36px;
+}
+
+.header input{
+    border: 0;
+}
+
+.header button{
+    border: 0;
+    padding: 5px 7px;
+    background-color: #FB2E86;
+}
+
+.header form{
+    border-right: none;
+    border: 2px solid #E7E6EF;
+    display: flex;
+}
+
+.icon-size{
+    font-size: 24px;
 }
