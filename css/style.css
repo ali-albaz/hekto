@@ -100,13 +100,20 @@ li{
 
 /* Footer */
 
-/* Contact info Section */
 .container-footer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     height: 532px;
     background-color: #EEEFFB;
+}
+
+/* Contact info Section */
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
 }
 
 .contact-info .logo{
@@ -169,6 +176,7 @@ li{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 105px;
 }
 
 .container-footer .catagories .catagories-logo{
@@ -186,6 +194,7 @@ li{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 105px;
 }
 
 .container-footer .customer-care .customer-care-logo{
@@ -195,6 +204,23 @@ li{
 }
 
 /* End OF Customer Care Section */
+
+/* Pages Section */
+
+.container-footer .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 105px;
+}
+
+.container-footer .pages .pages-logo{
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+/* End OF Pages Section */
 
 
 
