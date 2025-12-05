@@ -23,6 +23,12 @@ ul{
     list-style-type: none;
 }
 
+li{
+    list-style-type: none;
+}
+
+/* Header */
+
 .home-nav{
     color: #FB2E86;
 }
@@ -88,4 +94,70 @@ ul{
 .item{
     background-color: darkgray;
 }
+
+/* End Of The Header */
+
+
+/* Footer */
+
+/* Contact info Section */
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 532px;
+    background-color: #EEEFFB;
+}
+
+.contact-info .logo{
+    margin-top: 105px;
+    margin-bottom: 34px;
+}
+
+.container-footer .input-email{
+    width: 378px;
+    height: 50px;
+}
+
+.container-footer input{
+    width: 238px;
+    border: 0;
+    padding: 0 10px;
+    background-color: #ffffff;
+}
+.container-footer input::placeholder{
+    color: #8A8FB9;
+}
+
+.container-footer button{
+    width: 135px;
+    height: 42px;
+    border: 0;
+    padding: 8px 20px;
+    background-color: #FB2E86;
+    color: #EEEFFB;
+    font-size: 16px;
+}
+
+.container-footer form{
+    border-right: none;
+    border: 2px solid #E7E6EF;
+    display: flex;
+    width: 320px;
+}
+
+.contact-info .contact{
+    margin-top: 28px;
+    margin-bottom: 11px;
+    color: #8A8FB9;
+}
+
+.contact-info p{
+    color: #8A8FB9;
+}
+
+/* End of Contact info Section */
+
+
+
+
 
