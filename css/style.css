@@ -27,6 +27,11 @@ li{
     list-style-type: none;
 }
 
+.item{
+    background-color: gray;
+    font-size: 50px;
+}
+
 /* Header */
 
 .home-nav{
@@ -172,8 +177,6 @@ footer{
     align-items: flex-start;
     height: 532px;
     background-color: #EEEFFB;
-    position: fixed;
-    bottom: 0;
 }
 
 /* Contact info Section */
