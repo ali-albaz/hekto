@@ -71,8 +71,10 @@ li{
 }
 
 .container input{
+    font-size: 24px;
+    width: 266px;
     border: 0;
-    padding: 0 40px;
+    padding: 0 10px;
 }
 
 .container button{
@@ -102,7 +104,8 @@ li{
 
 .container-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     align-items: flex-start;
     height: 532px;
     background-color: #EEEFFB;
