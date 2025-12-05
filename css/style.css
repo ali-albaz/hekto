@@ -158,11 +158,12 @@ li{
 
 /* End of Contact info Section */
 
-/* Catagories Section */
-
 .container-footer a{
     color: #8A8FB9;
 }
+
+/* Catagories Section */
+
 
 .container-footer .catagories{
     display: flex;
@@ -180,6 +181,22 @@ li{
 
 
 /* Customer Care Section */
+
+.container-footer .customer-care{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container-footer .customer-care .customer-care-logo{
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+/* End OF Customer Care Section */
+
+
 
 
 
