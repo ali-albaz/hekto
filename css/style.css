@@ -104,12 +104,13 @@ li{
 .container-footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 532px;
     background-color: #EEEFFB;
 }
 
 .contact-info .logo{
-    margin-top: 105px;
+    font-size: 38px;
     margin-bottom: 34px;
 }
 
@@ -157,6 +158,28 @@ li{
 
 /* End of Contact info Section */
 
+/* Catagories Section */
+
+.container-footer a{
+    color: #8A8FB9;
+}
+
+.container-footer .catagories{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container-footer .catagories .catagories-logo{
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+/* End OF Catagories Section */
+
+
+/* Customer Care Section */
 
 
 
