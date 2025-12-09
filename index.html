@@ -8,16 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/library.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Header-->
-        <div class="container">
+        <div class="header d-flex align-items-center justify-content-space-evenly position-fixed left-0 top-0 z-index-100">
             <!--logo And navigation Section-->
-            <div class="header">
-                <div class="logo"><img src="img/Hekto.svg" alt="">
-                </div>
-
+                <div class="logo"><img src="img/Hekto.svg" alt=""></div>
                 <nav>
                     <ul>
                         <li>
@@ -40,66 +38,37 @@
                         </li>
                     </ul>
                 </nav>
-
-                
-            </div>
             <!--Search From Section-->
-            <div class="search-bar">
                 <form>
                     <input type="text">
                     <button><i class="fa-solid fa-magnifying-glass icon-size"></i></button>
                 </form>
-            </div>
 
-            <!--Responsive-->
-            <i class="fa-solid fa-list menu-btn"></i>
-
+                <!--Responsive-->
+                <i class="fa-solid fa-list menu-btn"></i>
         </div>
     <!--End of The Header-->
 
         <!--Testing-->
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <div class="item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam iusto commodi voluptatum ea accusantium nesciunt dolore similique officia ex, culpa quod iste sed adipisci veritatis? Nihil facilis atque incidunt doloribus, tenetur sit ex sunt qui ullam nam non, dolores nesciunt veniam labore! Atque nihil dignissimos repellat ipsum, minima at a vero? Porro, impedit ea! Esse doloribus necessitatibus accusantium amet.</p>
-        </div>
-        <!---->
-
 
     <!--Footer-->
-        <footer>
-            <div class="container-footer">
+            <div class="footer d-flex align-items-flex-start justify-content-space-evenly">
                 <!--Contact Info-->
                 <div class="contact-info">
                     <div class="logo"><img src="img/Hekto.svg" alt=""></div>
 
-                    <div class="input-email">
-                        <form action="">
+                        <form class="d-flex">
                             <input type="text" placeholder="Enter Email Address">
                             <button><span class="sign-up-btn">Sign Up</span></button>
                         </form>
-                    </div>
 
                     <h4 class="contact">Contact Info</h4>
                     <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
                 </div>
 
                 <!--Catagories-->
-                <div class="catagories">
-                    <h3 class="catagories-logo">Catagories</h3>
+                <div class="catagories d-flex flex-direction-col gap-margin-t-footer-nav">
+                    <h3 class="sections-header">Catagories</h3>
                     <li>
                         <a href="">Labtops & Computers</a>
                     </li>
@@ -118,8 +87,8 @@
                 </div>
 
                 <!--Customer Care-->
-                <div class="customer-care">
-                    <h3 class="customer-care-logo">Customer Care</h3>
+                <div class="customer-care d-flex flex-direction-col gap-margin-t-footer-nav">
+                    <h3 class="sections-header">Customer Care</h3>
                     <li>
                         <a href="">My Account</a>
                     </li>
@@ -138,8 +107,8 @@
                 </div>
                 
                 <!--Pages-->
-                <div class="pages">
-                    <h3 class="pages-logo">Pages</h3>
+                <div class="pages d-flex flex-direction-col gap-margin-t-footer-nav">
+                    <h3 class="sections-header">Pages</h3>
                     <li>
                         <a href="">Blog</a>
                     </li>
@@ -159,29 +128,7 @@
                         <a href="">WooCommerce Pages</a>
                     </li>
                 </div>
-                
-                <div class="res-container">
-
-                    <!--Responsive Catagories-->
-                    
-                    <div class="resp-catagories">
-                        <i class="fa-solid fa-list menu-btn-catagories">Catagories</i>
-                    </div>
-
-                    <!--Responsive Customer Care-->
-                    <div class="resp-cutomer-care">
-                        <i class="fa-solid fa-list menu-btn-customer-care">Customer Care</i>
-                    </div>
-                    
-                    
-                    <!--Responsive Pages-->
-                    <div class="resp-pages">
-                        <i class="fa-solid fa-list menu-btn-pages">pages</i>
-                    </div>
-
-                </div>
             </div>
-        </footer>
         <!--End Of The Footer-->
     </body>
     </html>

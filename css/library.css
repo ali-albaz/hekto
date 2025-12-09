@@ -1,0 +1,78 @@
+/* Website Colors */
+
+/* Display Flex */
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-flex-end{
+    align-items: flex-end;
+}
+
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+
+.flex-direction-col{
+    flex-direction: column;
+}
+
+/* Position */
+
+.position-fixed{
+    position: fixed;
+}
+
+.position-scroll{
+    position: scroll;
+}
+
+.left-0{
+    left: 0;
+}
+
+.top-0{
+    top: 0;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.z-index-100{
+    z-index: 100;
+}
+
+
+
+
+

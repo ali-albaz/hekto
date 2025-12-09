@@ -6,7 +6,7 @@
 }
 
 body{
-    min-height: 100vh;
+    height: 100%;
 }
 
 a{
@@ -34,61 +34,41 @@ li{
 
 /* Header */
 
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    padding: 47px 0;
+}
+
 .home-nav{
     color: #FB2E86;
 }
 
-.container{
-    background-color: #ffffff;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 47px 0;
-    position: sticky;
-    top: 0;
-}
-
-.header{
-    width: 944px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 47px 0;
-}
-
-.search-bar{
-    width: 920px;
-    display: flex;
-    justify-content: center;
-}
-
-.header ul {
+nav ul {
     display: flex;
     gap: 36px;
 }
 
-.header ul a:hover{
+nav ul a:hover{
     color: #FB2E86;
     transition: 0.5s;
 }
 
-.container input{
+.header input{
     font-size: 24px;
     width: 266px;
     border: 0;
     padding: 0 10px;
 }
 
-.container button{
+.header button{
     border: 0;
     padding: 8px 14px;
     background-color: #FB2E86;
 }
 
-.container form{
+.header form{
     border-right: none;
     border: 2px solid #E7E6EF;
     display: flex;
@@ -100,27 +80,34 @@ li{
 
 /* Resposive Header */
 
-.container .menu-btn{
+.header .menu-btn{
     display: none;
 }
 
 /* Phones */
 
 @media screen and (min-width:320px) and (max-width:600px) {
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 40px;
+    .header{
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .header input{
+        width: 100px;
     }
 
     .header .logo{
-        margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
     }
 
-    .container .menu-btn{
+    .header form{
+        margin-right: 1px;
+    }
+
+    .header .menu-btn{
         display: block;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .header ul {
@@ -131,20 +118,18 @@ li{
 /* Tablets */
 
 @media screen and (min-width:601px) and (max-width:1024px) {
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 50px;
+    .header{
+        justify-content: space-around;
+        gap: 10px;
     }
 
-    .container .menu-btn{
+    .header .menu-btn{
         display: block;
         margin-right: 20px;
     }
 
     .header .logo{
-        margin-left: 20px;
+        margin: 0 20px;
     }
 
     .header ul {
@@ -165,49 +150,36 @@ li{
 
 /* Footer */
 
-footer{
-    margin-top: auto;
-}
 
-.container-footer{
+.footer{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: flex-start;
-    height: 532px;
+    height: 520px;
     background-color: #EEEFFB;
+    margin-top: 100px;
 }
 
 /* Contact info Section */
 
 .contact-info{
-    display: flex;
-    flex-direction: column;
     margin-top: 105px;
 }
 
 .contact-info .logo{
-    font-size: 38px;
+    font-size: 34px;
     margin-bottom: 34px;
 }
 
-.container-footer .input-email{
-    width: 378px;
-    height: 50px;
-}
-
-.container-footer input{
+.footer input{
     width: 238px;
     border: 0;
     padding: 0 10px;
     background-color: #ffffff;
 }
-.container-footer input::placeholder{
+.footer input::placeholder{
     color: #8A8FB9;
 }
 
-.container-footer button{
+.footer button{
     width: 135px;
     height: 42px;
     border: 0;
@@ -217,10 +189,10 @@ footer{
     font-size: 16px;
 }
 
-.container-footer form{
+.footer form{
     border-right: none;
     border: 2px solid #E7E6EF;
-    display: flex;
+    height: 44px;
     width: 320px;
 }
 
@@ -236,179 +208,105 @@ footer{
 
 /* End of The Contact info Section */
 
-.container-footer a{
+.footer a{
     color: #8A8FB9;
 }
 
-/* Catagories Section */
-
-
-.container-footer .catagories{
-    display: flex;
-    flex-direction: column;
+.gap-margin-t-footer-nav{
     gap: 24px;
     margin-top: 105px;
 }
 
-.container-footer .catagories .catagories-logo{
+.sections-header{
     font-size: 22px;
     color: #000000;
     margin-bottom: 22px;
 }
 
-/* End OF The Catagories Section */
-
-
-/* Customer Care Section */
-
-.container-footer .customer-care{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    margin-top: 105px;
-}
-
-.container-footer .customer-care .customer-care-logo{
-    font-size: 22px;
-    color: #000000;
-    margin-bottom: 22px;
-}
-
-/* End OF The Customer Care Section */
-
-/* Pages Section */
-
-.container-footer .pages{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    margin-top: 105px;
-}
-
-.container-footer .pages .pages-logo{
-    font-size: 22px;
-    color: #000000;
-    margin-bottom: 22px;
-}
-
-/* End OF The Pages Section */
 
 /* Responsive Footer */
-
-.container-footer .menu-btn-catagories{
-    display: none;
-}
-
-.container-footer .menu-btn-customer-care{
-    display: none;
-}
-
-.container-footer .menu-btn-pages{
-    display: none;
-}
 
 /* Phones */
 
 @media screen and (min-width:320px) and (max-width:600px) {
 
-.container-footer{
-    height: 350px;
+.footer{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    gap: 70px;
+    justify-content: center;
+    height: 100%;
 }
 
-.container-footer .contact-info{
-    width: 50%;
-    margin-left: 20px;
+.footer form{
+    border-right: none;
+    border: 2px solid #E7E6EF;
+    height: 44px;
+    width: 300px;
 }
 
-.container-footer .resp-container{
-    width: 50%;
+.contact-info p{
+    font-size: 12px;
 }
 
-.container-footer .menu-btn-catagories{
-    display: block;
-    letter-spacing: 1px;
-    margin-bottom: 50px;
+.gap-margin-t-footer-nav{
+    gap: 10px;
+    margin-top: 50px;
 }
-.container-footer .menu-btn-customer-care{
-    display: block;
-    margin-bottom: 50px;
-    letter-spacing: 1px;
+
+.footer .contact-info{
+    margin-left: 15px;
+    margin-top: 30px;
 }
-.container-footer .menu-btn-pages{
-    display: block;
-    letter-spacing: 1px;
+
+.footer .catagories{
+    margin-left: 15px;
 }
-.container-footer .catagories{
-    display: none;
+
+.footer .customer-care{
+    margin-left: -10px;
 }
-.container-footer .pages{
-    display: none;
+
+.footer .pages{
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
-.container-footer .customer-care{
-    display: none;
-}
+
 }
 
 
 /* Tablets */
 @media screen and (min-width:601px) and (max-width:1024px) {
 
-.container-footer{
-    height: 350px;
+.footer{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    gap: 70px;
+    justify-content: center;
+    height: 100%;
 }
 
-.container-footer .contact-info{
-    width: 50%;
-    margin-left: 20px;
+.footer .contact-info{
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
-.container-footer .resp-container{
-    width: 50%;
+.footer .catagories{
+    margin-left: 15px;
 }
 
-.container-footer .menu-btn-catagories{
-    display: block;
-    letter-spacing: 1px;
-    margin-bottom: 50px;
+.footer .customer-care{
+    margin-left: -10px;
 }
-.container-footer .menu-btn-customer-care{
-    display: block;
-    margin-bottom: 50px;
-    letter-spacing: 1px;
+
+.footer .pages{
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
-.container-footer .menu-btn-pages{
-    display: block;
-    letter-spacing: 1px;
-}
-.container-footer .catagories{
-    display: none;
-}
-.container-footer .pages{
-    display: none;
-}
-.container-footer .customer-care{
-    display: none;
-}
+
 }
 
 /* Desktop labtops */
 @media screen and (min-width:1025px) and (max-width:1440px) {
-
-.container-footer{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.container-footer .contact-info{
-    margin-left: 20px;
-}
 }
 /* End of The Footer */
