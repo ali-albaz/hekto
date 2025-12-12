@@ -46,6 +46,10 @@
     flex-direction: column;
 }
 
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
 /* Position */
 
 .position-fixed{
@@ -73,6 +77,12 @@
 }
 
 
+/* Text */
 
+.text-align-center{
+    text-align: center;
+}
 
-
+.font-size-section{
+    font-size: 42px bold;
+}

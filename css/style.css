@@ -310,3 +310,83 @@ nav ul a:hover{
 @media screen and (min-width:1025px) and (max-width:1440px) {
 }
 /* End of The Footer */
+
+/* Featuerd Products Section */
+
+.featured-products{
+    width: 80%;
+    margin: auto;
+    margin-top: 94px;
+    background-color: #ffffff;
+}
+
+.featured-products-header{
+    margin-bottom: 48px;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Josefin Sans" , sans-serif;
+    color: #1A0B5B;
+}
+
+.product{
+    width: 270px;
+    height: 361px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+}
+
+.product .product-img{
+    background-color: #F6F7FB;
+    width: 270px;
+    height: 236px;
+}
+
+.product .product-img img{
+    margin-top: 46px;
+    width: 178px;
+    height: 178px;
+}
+
+.product .product-info h2{
+    margin-top: 15px;
+    color: #FB2E86;
+    font-size: 18px;
+}
+
+.product .product-info .code{
+    color: #151875;
+}
+
+.product .product-info .price{
+    margin-top: 12px;
+    color: #151875;
+}
+
+.featured-products-gap{
+    gap: 30px;
+}
+
+.btn{
+    margin: 12px 0;
+    width: 14px;
+    height: 4px;
+    border-radius: 0px;
+}
+
+.color-one{
+    background-color: #05E6B7;
+}
+
+.color-two{
+    background-color: #F701A8;
+}
+
+.color-three{
+    background-color: #00009D;
+}
+
+/* Responsive Featuerd Products Section */
+
+/*Done
+
+/* End of The Featuerd Products Section */
