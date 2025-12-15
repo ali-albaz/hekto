@@ -6,7 +6,14 @@
 }
 
 body{
+    height: 4000px;
+}
+
+.container{
+    width: 92%;
+    margin: auto;
     height: 100%;
+    border: 2px solid red;
 }
 
 a{
@@ -14,43 +21,31 @@ a{
     color: #0D0E43;
 }
 
-.logo{
-    font-size: 34px bold;
-    margin-right: 88px;
-}
-
 ul{
     list-style-type: none;
-}
-
-li{
-    list-style-type: none;
-}
-
-.item{
-    background-color: gray;
-    font-size: 50px;
 }
 
 /* Header */
 
 .header{
     background-color: #ffffff;
+    color: #0D0E43;
     width: 100%;
-    height: 40px;
-    padding: 47px 0;
 }
 
-.home-nav{
-    color: #FB2E86;
+.navigation{
+    padding: 40px 0;
+    background-color: #ffffff;
+
 }
 
-nav ul {
+.navigation ul {
+    background-color: #ffffff;
     display: flex;
     gap: 36px;
 }
 
-nav ul a:hover{
+.navigation ul a:hover{
     color: #FB2E86;
     transition: 0.5s;
 }
@@ -78,6 +73,10 @@ nav ul a:hover{
     font-size: 24px;
 }
 
+.home-nav{
+    color: #FB2E86;
+}
+
 /* Resposive Header */
 
 .header .menu-btn{
@@ -87,49 +86,31 @@ nav ul a:hover{
 /* Phones */
 
 @media screen and (min-width:320px) and (max-width:600px) {
-    .header{
-        justify-content: space-around;
-        gap: 10px;
-    }
-
-    .header input{
-        width: 100px;
-    }
-
-    .header .logo{
-    margin-right: 5px;
-    margin-left: 10px;
-    }
-
-    .header form{
-        margin-right: 1px;
-    }
-
     .header .menu-btn{
         display: block;
-        margin-right: 20px;
+        margin: 0 20px;
     }
 
     .header ul {
         display: none;
+    }
+
+    .header .logo{
+        margin-right: 5px;
+    }
+
+    .header input{
+        width: 100px;
     }
 }
 
 /* Tablets */
 
 @media screen and (min-width:601px) and (max-width:1024px) {
-    .header{
-        justify-content: space-around;
-        gap: 10px;
-    }
 
     .header .menu-btn{
         display: block;
         margin-right: 20px;
-    }
-
-    .header .logo{
-        margin: 0 20px;
     }
 
     .header ul {
@@ -139,305 +120,5 @@ nav ul a:hover{
 
 /* Labtops */
 
-@media screen and (min-width:1025px) and (max-width:1440px) {
-     .header .logo{
-        margin-left: 20px;
-    }
-}
-
-/* End Of The Header */
-
-
-/* Footer */
-
-
-.footer{
-    width: 100%;
-    height: 520px;
-    background-color: #EEEFFB;
-    margin-top: 100px;
-}
-
-/* Contact info Section */
-
-.contact-info{
-    margin-top: 105px;
-}
-
-.contact-info .logo{
-    font-size: 34px;
-    margin-bottom: 34px;
-}
-
-.footer input{
-    width: 238px;
-    border: 0;
-    padding: 0 10px;
-    background-color: #ffffff;
-}
-.footer input::placeholder{
-    color: #8A8FB9;
-}
-
-.footer button{
-    width: 135px;
-    height: 42px;
-    border: 0;
-    padding: 8px 20px;
-    background-color: #FB2E86;
-    color: #EEEFFB;
-    font-size: 16px;
-}
-
-.footer form{
-    border-right: none;
-    border: 2px solid #E7E6EF;
-    height: 44px;
-    width: 320px;
-}
-
-.contact-info .contact{
-    margin-top: 28px;
-    margin-bottom: 11px;
-    color: #8A8FB9;
-}
-
-.contact-info p{
-    color: #8A8FB9;
-}
-
-/* End of The Contact info Section */
-
-.footer a{
-    color: #8A8FB9;
-}
-
-.gap-margin-t-footer-nav{
-    gap: 24px;
-    margin-top: 105px;
-}
-
-.sections-header{
-    font-size: 22px;
-    color: #000000;
-    margin-bottom: 22px;
-}
-
-
-/* Responsive Footer */
-
-/* Phones */
-
-@media screen and (min-width:320px) and (max-width:600px) {
-
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-.footer form{
-    border-right: none;
-    border: 2px solid #E7E6EF;
-    height: 44px;
-    width: 300px;
-}
-
-.contact-info p{
-    font-size: 12px;
-}
-
-.gap-margin-t-footer-nav{
-    gap: 10px;
-    margin-top: 50px;
-}
-
-.footer .contact-info{
-    margin-left: 15px;
-    margin-top: 30px;
-}
-
-.footer .catagories{
-    margin-left: 15px;
-}
-
-.footer .customer-care{
-    margin-left: -10px;
-}
-
-.footer .pages{
-    margin-left: 15px;
-    margin-bottom: 30px;
-}
-
-}
-
-
-/* Tablets */
-@media screen and (min-width:601px) and (max-width:1024px) {
-
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-.footer .contact-info{
-    margin-left: 15px;
-    margin-top: 30px;
-}
-
-.footer .catagories{
-    margin-left: 15px;
-}
-
-.footer .customer-care{
-    margin-left: -10px;
-}
-
-.footer .pages{
-    margin-left: 15px;
-    margin-bottom: 30px;
-}
-
-}
-
-/* Desktop labtops */
-@media screen and (min-width:1025px) and (max-width:1440px) {
-}
-/* End of The Footer */
-
-/* Featuerd Products Section */
-
-.featured-products{
-    width: 80%;
-    margin: auto;
-    margin-top: 94px;
-    background-color: #ffffff;
-}
-
-.featured-products-header{
-    margin-bottom: 48px;
-    font-size: 42px;
-    font-weight: 700;
-    color: #1A0B5B;
-}
-
-.header-font{
-    font-family: "Josefin Sans", sans-serif;
-}
-
-.product{
-    width: 270px;
-    height: 361px;
-    overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
-}
-
-.product .product-img{
-    background-color: #F6F7FB;
-    width: 270px;
-    height: 236px;
-}
-
-.product .product-img img{
-    margin-top: 46px;
-    width: 178px;
-    height: 178px;
-}
-
-.product .product-info h2{
-    margin-top: 15px;
-    color: #FB2E86;
-    font-size: 18px;
-}
-
-.product .product-info .code{
-    color: #151875;
-}
-
-.product .product-info .price{
-    margin-top: 12px;
-    color: #151875;
-}
-
-.featured-products-gap{
-    gap: 30px;
-}
-
-.featured-products-btn{
-    margin: 12px 0;
-    width: 14px;
-    height: 4px;
-    border: none;
-    border-radius: 40%;
-}
-
-.color-one{
-    background-color: #05E6B7;
-}
-
-.color-two{
-    background-color: #F701A8;
-}
-
-.color-three{
-    background-color: #00009D;
-}
-
-/* Responsive Featuerd Products Section */
-
-/*Done
-
-/* End of The Featuerd Products Section */
-
-/* Background-Section */
-.background-section{
-    background-image: url("../img/backgrounds/bg-section.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 462px;
-    margin-top: 125px;
-}
-
-.background-section-content{
-    height: 462px;
-}
-
-.background-section-content .bg-section-p{
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-    letter-spacing: 1.5%;
-    line-height: 155%;
-    color: #151875;
-}
-
-.background-section-content .bg-section-btn{
-    font-family: "Josefin Sans", sans-serif;
-    color: #FFFFFF;
-    background-color: #FB2E86;
-    width: 173px;
-    height: 49px;
-    border-radius: 2px;
-    border: none;
-    line-height: 100%;
-    letter-spacing: 2%;
-    font-size: 17px;
-    font-weight: 400;
-    margin-top: 28px;
-}
-
-/* Responisve Background-Section */
-
-@media screen and (min-width:320px) and (max-width:600px) {
-    .background-section-content .bg-section-p{
-    margin-left: 75px;
-}
+@media screen and (min-width:1025px){
 }

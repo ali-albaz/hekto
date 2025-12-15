@@ -14,184 +14,57 @@
 </head>
 <body>
     <!--Header-->
-        <div class="header d-flex align-items-center justify-content-space-evenly position-fixed left-0 top-0 z-index-100">
-            <!--logo And navigation Section-->
-                <div class="logo"><img src="img/Hekto.svg" alt=""></div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href=""><span class="home-nav">Home</span></a>
-                        </li>
-                        <li>
-                            <a href="">Pages</a>
-                        </li>
-                        <li>
-                            <a href="">Products</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                        <li>
-                            <a href="">Shop</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
+        <header class="header position-fixed left-0 top-0">
+            <div class="container">
+                <nav class="navigation d-flex align-items-center justify-content-space-between">
+                    <!--logo And navigation Section-->
+                    <div class="logo"><img src="img/Hekto.svg"></div> <!--brb-->
+
+                        <ul>
+                            <li>
+                                <a href="#"><span class="home-nav">Home</span></a>
+                            </li>
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    <!--Search From Section-->
+                    <form>
+                        <input type="text">
+                        <button><i class="fa-solid fa-magnifying-glass icon-size"></i></button>
+                    </form>
+
+                    <!--Responsive-->
+                    <i class="fa-solid fa-list menu-btn"></i>
                 </nav>
-            <!--Search From Section-->
-                <form>
-                    <input type="text">
-                    <button><i class="fa-solid fa-magnifying-glass icon-size"></i></button>
-                </form>
-
-                <!--Responsive-->
-                <i class="fa-solid fa-list menu-btn"></i>
-        </div>
+            </div>
+        </header>
     <!--End of The Header-->
-
-    <!--Featuerd Products-->
-        <div class="featured-products">
-            <div class="featured-products-header text-align-center"><span class="header-font">Featured Products</span></div>
-            <div class="featured-products-gap d-flex align-items-center justify-content-center flex-wrap-wrap">
-
-                <div class="product text-align-center">
-                    <div class="product-img"><img src="img/swiper/1.png"></div>
-                    <div class="product-info">
-                        <h2>Cantilever Chair</h2>
-                        <button class="featured-products-btn color-one"></button>
-                        <button class="featured-products-btn color-two"></button>
-                        <button class="featured-products-btn color-three"></button>
-                        <div class="code"><span>Code - Y523201</span></div>
-                        <div class="price"><span>$42.00</span></div>
-                    </div>
-                </div>
-
-                <div class="product text-align-center">
-                    <div class="product-img"><img src="img/swiper/2.png"></div>
-                    <div class="product-info">
-                        <h2>Cantilever Chair</h2>
-                        <button class="featured-products-btn color-one"></button>
-                        <button class="featured-products-btn color-two"></button>
-                        <button class="featured-products-btn color-three"></button>
-                        <div class="code"><span>Code - Y523201</span></div>
-                        <div class="price"><span >$42.00</span></div>
-                    </div>
-                </div>
-
-                <div class="product text-align-center">
-                    <div class="product-img"><img src="img/swiper/3.png"></div>
-                    <div class="product-info">
-                        <h2>Cantilever Chair</h2>
-                        <button class="featured-products-btn color-one"></button>
-                        <button class="featured-products-btn color-two"></button>
-                        <button class="featured-products-btn color-three"></button>
-                        <div class="code"><span>Code - Y523201</span></div>
-                        <div class="price"><span>$42.00</span></div>
-                    </div>
-                </div>
-
-                <div class="product text-align-center">
-                    <div class="product-img"><img src="img/swiper/4.png"></div>
-                    <div class="product-info">
-                        <h2>Cantilever Chair</h2>
-                        <button class="featured-products-btn color-one"></button>
-                        <button class="featured-products-btn color-two"></button>
-                        <button class="featured-products-btn color-three"></button>
-                        <div class="code"><span>Code - Y523201</span></div>
-                        <div class="price"><span>$42.00</span></div>
-                    </div>
-                </div>
+    <main>
+        <!--Featuerd Products-->
+        <section class="featured-products">
+            <div class="container">
 
             </div>
-        </div>
+        </section>
+            
 
-    <!--Background Section-->
-    <div class="background-section">
-        <div class="background-section-content d-flex align-items-center justify-content-center flex-direction-col flex-wrap-wrap">
-            <p class="bg-section-p">Get Leatest Update By Subscribe</p>
-            <p class="bg-section-p">0ur Newslater</p>
-            <button class="bg-section-btn">Shop Now</button>
-        </div>
-    </div>
+        <!--Background Section-->
+    </main>
     <!--Footer-->
-            <div class="footer d-flex align-items-flex-start justify-content-space-evenly">
-                <!--Contact Info-->
-                <div class="contact-info">
-                    <div class="logo"><img src="img/Hekto.svg" alt=""></div>
-
-                        <form class="d-flex">
-                            <input type="text" placeholder="Enter Email Address">
-                            <button><span class="sign-up-btn">Sign Up</span></button>
-                        </form>
-
-                    <h4 class="contact">Contact Info</h4>
-                    <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
-                </div>
-
-                <!--Catagories-->
-                <div class="catagories d-flex flex-direction-col gap-margin-t-footer-nav">
-                    <h3 class="sections-header">Catagories</h3>
-                    <li>
-                        <a href="">Labtops & Computers</a>
-                    </li>
-                    <li>
-                        <a href="">Cameras & Photography</a>
-                    </li>
-                    <li>
-                        <a href="">Smart Phones & Tablets</a>
-                    </li>
-                    <li>
-                        <a href="">Video Games & Consoles</a>
-                    </li>
-                    <li>
-                        <a href="">Waterproof Headphones</a>
-                    </li>
-                </div>
-
-                <!--Customer Care-->
-                <div class="customer-care d-flex flex-direction-col gap-margin-t-footer-nav">
-                    <h3 class="sections-header">Customer Care</h3>
-                    <li>
-                        <a href="">My Account</a>
-                    </li>
-                    <li>
-                        <a href="">Discount</a>
-                    </li>
-                    <li>
-                        <a href="">Returns</a>
-                    </li>
-                    <li>
-                        <a href="">Orders History</a>
-                    </li>
-                    <li>
-                        <a href="">Order Tracking</a>
-                    </li>
-                </div>
-                
-                <!--Pages-->
-                <div class="pages d-flex flex-direction-col gap-margin-t-footer-nav">
-                    <h3 class="sections-header">Pages</h3>
-                    <li>
-                        <a href="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="">Browse the Shop</a>
-                    </li>
-                    <li>
-                        <a href="">Category</a>
-                    </li>
-                    <li>
-                        <a href="">Pre-Built Pages</a>
-                    </li>
-                    <li>
-                        <a href="">Visual Composer Elements</a>
-                    </li>
-                    <li>
-                        <a href="">WooCommerce Pages</a>
-                    </li>
-                </div>
-            </div>
-        <!--End Of The Footer-->
+    <!--End Of The Footer-->
     </body>
     </html>

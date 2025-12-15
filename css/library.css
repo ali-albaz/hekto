@@ -60,6 +60,10 @@
     position: scroll;
 }
 
+.position-sticky{
+    position: sticky;
+}
+
 .left-0{
     left: 0;
 }
