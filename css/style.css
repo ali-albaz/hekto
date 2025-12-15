@@ -34,7 +34,7 @@ ul{
 }
 
 .navigation{
-    padding: 40px 0;
+    padding: 25px 0;
     background-color: #ffffff;
 
 }
@@ -122,3 +122,126 @@ ul{
 
 @media screen and (min-width:1025px){
 }
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: #EEEFFB;
+    padding: 50px 0;
+    margin-top: 100px;
+    height: fit-content;
+
+}
+
+.footer a{
+    color: #8A8FB9;
+}
+
+.gap-margin-t-footer-nav{
+    gap: 24px;
+}
+
+.sections-header{
+    font-size: 22px;
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 22px;
+}
+
+
+/* Contact info Section */
+
+.contact-info{
+}
+
+.contact-info .logo{
+    font-size: 34px;
+    margin-bottom: 34px;
+}
+
+.footer input{
+    width: 238px;
+    border: 0;
+    padding: 0 10px;
+    background-color: #ffffff;
+}
+.footer input::placeholder{
+    color: #8A8FB9;
+}
+
+.footer button{
+    width: 135px;
+    height: 42px;
+    border: 0;
+    padding: 8px 20px;
+    background-color: #FB2E86;
+    color: #EEEFFB;
+    font-size: 16px;
+}
+
+.footer form{
+    border-right: none;
+    border: 2px solid #E7E6EF;
+    height: 44px;
+    width: 320px;
+}
+
+.contact-info .contact{
+    margin-top: 28px;
+    margin-bottom: 11px;
+    color: #8A8FB9;
+}
+
+.contact-info p{
+    color: #8A8FB9;
+}
+
+
+/* Responsive Footer */
+
+/* Phones */
+
+@media screen and (min-width:320px) and (max-width:600px) {
+
+.footer-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content-container form{
+    border-right: none;
+    border: 2px solid #E7E6EF;
+    height: 44px;
+    width: 290px;
+}
+
+.sections-header{
+    margin: 20px 0;
+}
+
+}
+
+/* Tablets */
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+
+.footer-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections-header{
+    margin: 20px 0;
+}
+
+}
+
+/* Desktop labtops */
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .footer-content-container{
+        gap: 10px;
+    }
+}
+
+
