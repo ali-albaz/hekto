@@ -13,6 +13,7 @@ body{
     width: 92%;
     margin: auto;
     height: 100%;
+    border: 2px solid red;
 }
 
 a{
@@ -411,5 +412,89 @@ ul{
     margin-left: 50px;
 }
 }
+
+/* Hero Section */
+
+.hero{
+    background-color: #F2F0FF;
+    width: 100%;
+}
+
+.hero-content{
+    height: fit-content;
+}
+
+.hero-content .hero-left-side h3{
+    color: #FB2E86;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 3px;
+}
+
+.hero-content .hero-left-side .hero-header h1{
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700 bold;
+    font-size: 53px;
+    line-height: 171%;
+    letter-spacing: 1.5%;
+    margin-left: 5px;
+}
+
+.hero-content .hero-left-side p{
+    color: #8A8FB9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 3px;
+}
+
+.hero-btn{
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    background-color: #FB2E86;
+    width: 173px;
+    height: 49px;
+    border-radius: 2px;
+    border: none;
+    line-height: 100%;
+    letter-spacing: 2%;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+
+.hero-right-side img{
+    height: auto;
+}
+
+/* Responisve Hero Section */
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .hero-right-side img{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .hero-right-side img{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .hero-right-side img{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+}
+
 
 
