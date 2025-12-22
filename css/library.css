@@ -50,6 +50,22 @@
     flex-wrap: wrap;
 }
 
+/* gaps */
+
+.gap-5px{
+    gap: 5px;
+}
+
+
+.gap-10px{
+    gap: 10px;
+}
+
+
+.gap-15px{
+    gap: 15px;
+}
+
 /* Position */
 
 .position-fixed{
@@ -64,8 +80,18 @@
     position: sticky;
 }
 
+.position-relative{
+    position: relative;
+}
+
 .position-absolute{
     position: absolute;
+}
+
+/* overflow */
+
+.overflow-auto{
+    overflow: auto;
 }
 
 .left-0{
@@ -84,8 +110,20 @@
     bottom: 0;
 }
 
+.bottom-40{
+    bottom: 40px;
+}
+
+.left-15{
+    left: 15px;
+}
+
 .z-index-100{
     z-index: 100;
+}
+
+.z-index-minus100{
+    z-index: -100;
 }
 
 
