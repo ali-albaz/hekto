@@ -684,6 +684,44 @@ ul{
 /* Labtops */
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
-
 }
 
+/* Shopex Offer Section */
+
+.shopex-header h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    color: #151875;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.shopex-content{
+    gap: 30px;
+}
+
+.shopex-content .shopex-card{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+
+.shopex-content .shopex-card .shopex-info h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    color: #151875;
+    padding: 20px;
+}
+
+.shopex-content .shopex-card .shopex-info p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #1A0B5B4D;
+}
