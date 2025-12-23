@@ -894,3 +894,30 @@ ul{
 .latest-blog-card:hover .latest-blog-info h2 , .latest-blog-card:hover .latest-blog-info a {
     color: #FB2E86;
 }
+
+
+/* Responsive Latest Blog Section */
+
+/* Phones */
+
+@media screen and (min-width:320px) and (max-width:600px) {
+.latest-blog-cards .latest-blog-card{
+    width: 270px;
+}
+
+.latest-blog-cards .latest-blog-card .latest-blog-img img{
+    width: 270px;
+}
+}
+
+/* Tablets */
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+
+}
+
+/* Labtops */
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+
+}
