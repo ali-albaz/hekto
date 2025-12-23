@@ -890,3 +890,7 @@ ul{
     line-height: 30px;
     text-decoration: underline;
 }
+
+.latest-blog-card:hover .latest-blog-info h2 , .latest-blog-card:hover .latest-blog-info a {
+    color: #FB2E86;
+}
