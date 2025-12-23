@@ -731,7 +731,7 @@ ul{
     color: #1A0B5B4D;
 }
 
-/* Trending-Products-Content */
+/* Trending-Products Section */
 
 .trending-products{
     padding-top: 60px;
@@ -796,3 +796,97 @@ ul{
     margin-bottom: 20px;
 }
 
+
+/* Latest Blog Section */
+
+.latest-blog{
+    padding-top: 60px;
+}
+
+.latest-blog-header h1{
+    color: #151875;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.latest-blog-cards{
+    gap: 50px;
+    
+}
+
+.latest-blog-cards .latest-blog-card .latest-blog-img img{
+    width: 370px;
+    height: 255px;
+
+    border-radius: 2%;
+}
+
+.latest-blog-cards .latest-blog-card{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+
+.user-date{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.user-date .user i{
+    color: #FB2E86;
+}
+
+
+.user-date .user h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.user-date .date i{
+    color: #FFA454;
+}
+
+.user-date .date h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.latest-blog-card .latest-blog-info{
+    padding: 15px;
+}
+
+.latest-blog-card .latest-blog-info h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.latest-blog-card .latest-blog-info p{
+    color: #72718F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.latest-blog-card .latest-blog-info a{
+    color: #151875;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: underline;
+}
