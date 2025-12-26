@@ -68,6 +68,10 @@
 
 /* Position */
 
+.position-static{
+    position: static;
+}
+
 .position-fixed{
     position: fixed;
 }

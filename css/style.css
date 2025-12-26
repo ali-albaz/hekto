@@ -31,6 +31,7 @@ ul{
     background-color: #ffffff;
     color: #0D0E43;
     width: 100%;
+    z-index: 100;
 }
 
 .navigation{
@@ -156,7 +157,7 @@ ul{
 .contact-info{
 }
 
-.contact-info .logo{
+.contact-info .footer-logo{
     font-size: 34px;
     margin-bottom: 34px;
 }
@@ -921,3 +922,83 @@ ul{
 @media screen and (min-width:1025px) and (max-width:1440px) {
 
 }
+
+
+/* Top Categories Section */
+
+.top-categories{
+    padding-top: 60px;
+}
+
+.top-categories .container .top-categories-header h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 42px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #151875;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top-categories-content .top-categories-card .top-categories-img{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    box-shadow: 0px 8px 40px 0px #31208A0D;
+    width: 269px;
+    height: 269px;
+    margin-bottom: 20px;
+
+}
+
+.top-categories-content .top-categories-card .top-categories-img img{
+    width: 178px;
+    height: 178px;
+}
+
+.top-categories-card .top-categories-info .top-categories-name h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #151875;
+    margin-bottom: 6PX;
+}
+
+.top-categories-card .top-categories-info .top-categories-price span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #151875;
+}
+
+.top-categories-content .top-categories-card .top-categories-img .top-categories-btn button{
+    background-color: #08D15F;
+    padding: 11px 15px;
+    border: none;
+    border-radius: 5%;
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.top-categories-content .top-categories-card .top-categories-card-bg-hover{
+    background-color: #9877E7;
+    width: 269px;
+    height: 269px;
+    border-radius: 50%;
+    left: -5px;
+    top: 6px;
+    transition: 0.1s;
+    visibility: hidden;
+    z-index: -10;
+}
+
+.top-categories-card:hover .top-categories-img .top-categories-btn button , .top-categories-card:hover .top-categories-card-bg-hover{
+    visibility: visible;
+}
+
